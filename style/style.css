@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1110px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+
+}
+
+.header__list-title {
+  margin: auto;
+  margin-top: 80px;
+  width: 811px;
+  height: 29px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.nav__list-link {
+  gap: 30px;
+  color: #8C8A8A;
+
+}
+
+.nav__list-link:hover {
+  border-bottom: 2px solid #4581b7;
+}
+
+.header__content {
+  margin-top: 30px;
+  width: 100%;
+  height: 450px;
+  background: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__content-container.container,
+.header__content.container {
+  padding: 0;
+}
+
+.main__content-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+
+}
+
+.main__content-title {
+  width: 730px;
+  height: 500px;
+  background: #f0f0f0;
+  padding: 50px 95px 51px 40px;
+}
+
+.title__content {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  color: #4581b7;
+  
+}
+
+.title__text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  color: #808080;
+  margin-top: 25px;
+}
+
+.second__content-title {
+  width: 350px;
+  height: 500px;
+  background: #f0f0f0;
+  padding: 25px 24px 159px 40px;
+
+}
+
+.second__title-content {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #4581b7;
+  margin-top: 50px;
+}
+
+.second__title-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  color: #808080;
+  margin-top: 25px;
+  margin-left: 40px;
+  margin-right: 25px;
+}
+
+.footer__container {
+  width: 100%;
+  height: 150px;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.footer__logo {
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.footer__content-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: #808080;
+  margin-top: 46px;
+}
+
+.footer__content-number {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 25px;
+  color: #808080;
+  margin-top: 10px;
+}
